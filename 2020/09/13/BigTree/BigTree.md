@@ -2,9 +2,9 @@
 title: BigTree
 date: 2020-09-13 08:52:23
 tags: ssss
-
+thumbnail: /images/banner/b1.png
 ---
 
-## Quick Startfor
- more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
+# I'm a big tree.
 
+I like eat rabbits and carrot.
