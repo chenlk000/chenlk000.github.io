@@ -333,7 +333,7 @@
       
         
           
-            <a href="/friends" target="_self" class="mdui-list-item mdui-ripple mdui-ripple-white">
+            <a href="/myGallery" target="_blank" class="mdui-list-item mdui-ripple mdui-ripple-white">
           
               
               
@@ -358,7 +358,7 @@
             <div class="mdui-collapse-item-body mdui-list">
               
                 
-                  <a href="/myfriends" class="mdui-list-item mdui-ripple mdui-ripple-white" target="_self">
+                  <a href="/test1" class="mdui-list-item mdui-ripple mdui-ripple-white" target="_self">
                 
                     TEST1
                   </a>
@@ -394,7 +394,7 @@
     
       <br />
       <span>
-        Last Updated: Sep 13, 2020
+        Last Updated: Aug 25, 2021
       </span>
     
     
@@ -404,7 +404,12 @@
   var copyrightNow = new Date().getFullYear();
   var textContent = document.querySelector('span[year]')
   
-    textContent.textContent = copyrightNow
+    copyrightSince = 2020;
+    if (copyrightSince === copyrightNow) {
+      textContent.textContent = copyrightNow
+    } else {
+      textContent.textContent = copyrightSince + ' - ' + copyrightNow
+    }
   
 </script>
 
@@ -514,7 +519,7 @@
         
         
           <section class="mdui-card-media">
-            <img src="/images/random/36.png"/>
+            <img src="/images/random/5.png"/>
           </section>
         
         <section class="mdui-typo theme-post__card__content">
